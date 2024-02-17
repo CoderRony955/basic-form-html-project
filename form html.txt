@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fillup a form-</title>
+    <marquee behavior="" direction="right">Welcome to our website</marquee>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            font-family: "Protest Guerrilla", sans-serif;
+            color: rgb(12, 12, 75);
+        }
+
+        h2 {
+            font-family: "Protest Riot", sans-serif;
+            text-decoration-line: underline;
+        }
+
+        h3 {
+            font-family: cursive;
+            text-decoration-line: underline;
+            text-decoration-color: rgb(3, 9, 7);
+            font-size: x-large;
+        }
+
+        div {
+            font-family: monospace;
+            font-weight: bolder;
+            font-size: x-large;
+            text-align: center;
+        }
+
+        input[type="submit"] {
+            background-color: rgba(247, 217, 21, 0.523);
+            border-radius: 6px;
+            box-shadow: 9px 5px 2px 0px red;
+            font-family: cursive;
+            height: 6vh;
+            width: 10vw;
+            font-size: x-large;
+            font-weight: bolder;
+            margin: auto;
+            border-style: groove;
+            position: relative;
+            bottom: 4px ;
+            left: 21px;
+        }
+
+        input[type="file"] {
+            color: rgb(10, 10, 12);
+            font-family: sans-serif;
+            border-radius: 4px;
+            border-style: groove;
+
+        }
+
+        ::-webkit-input-placeholder {
+            font-family: cursive;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body">
+    <!--Write a first heading-->
+
+    <h1>Form fillup project - </h1>
+    <form action="post">
+
+        <div>
+            <h2>Note-</h2>
+        </div>
+        <div>
+            <h3 style="color: black;">Please fillup this form very carefully</h3>
+        </div><br>
+
+        <div class="your name">
+            <label for="Your name">Your name -</label>
+            <input type="Your name" placeholder="Enter your name" required><br>
+            <br>
+
+        </div>
+        <div>
+            <label for="Your age">Age -</label>
+            <input type="Your age" placeholder="Enter your age" required><br>
+            <br>
+
+        </div>
+        <div>
+            <label for="Your Father's name">Father's name -</label>
+            <input type="Father's name" placeholder="Enter your Father's name"><br>
+            <br>
+        </div>
+        <div>
+            <label for="Your Mother's name">Mother's name -</label>
+            <input type="Your Mother's name" placeholder="Enter your Mother's name"><br>
+            <br>
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female"><br>
+            <br>
+        </div>
+        <div>
+            <label for="graduate">Graduate</label>
+            <input type="radio" id="graduate" name="qualification" value="graduate">
+            <label for="under graduate">Under graduate</label>
+            <input type="radio" id="under graduate" name="qualification" value="under graduate"><br>
+            <br>
+        </div>
+        <div>
+            <label for="date of birth"> Date of Birth -</label>
+            <input type="date"><br>
+            <br>
+        </div>
+        <div>
+            <label for="upload certificate">Upload your 12th certificate -</label>
+            <input type="file"><br>
+            <br>
+        </div>
+        <div>
+            <label for="email">Email -</label>
+            <input type="email" placeholder="your email address" name="email" required><br>
+            <br>
+        </div>
+        <div>
+            <label for="phone number">Phone no. -</label>
+            <input type="number" required><br>
+            <br>
+        </div>
+        <div>
+            <label for="form fillup">if Form fillup complete than click to checkbox-</label>
+            <input type="checkbox"><br>
+            <br>
+        </div>
+        <div">
+            <label for="submit"></label>
+            <input type="submit">
+            </div>
+    </form>
+
+
+    </body>
+
+</html>
